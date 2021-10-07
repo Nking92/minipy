@@ -1,5 +1,6 @@
 
 def fibonacci(n):
+    """ Calculates the nth number of the fibonacci sequence """
     if n < 0:
         raise ValueError("Invalid input")
     if n == 0:
