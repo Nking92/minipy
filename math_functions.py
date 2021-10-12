@@ -15,3 +15,12 @@ def square_perimeter(side_length):
     """ Returns the perimeter of a square """
     return side_length * 4
 
+def fibonacci(n):
+    """ Calculates the nth number of the fibonacci sequence """
+    if n < 0:
+        raise ValueError("Invalid input")
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    return fibonacci(n-1) + fibonacci(n-2)
