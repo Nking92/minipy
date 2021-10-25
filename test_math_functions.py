@@ -10,9 +10,9 @@ def test_circle_area():
     # This test is intentionally trivial to demonstrate dummy functions.
     r = 3
     try:
-      circle_area(r)
+        circle_area(r)
     except:
-      pass
+        pass
     assert(True)
 
 def test_rectangle_area():
