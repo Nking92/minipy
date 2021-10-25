@@ -1,4 +1,4 @@
-from .unsafe import *
+from unsafe import *
 
 def test_match_url():
   assert(match_url('www.example.com/'))

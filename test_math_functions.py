@@ -1,4 +1,4 @@
-from .math_functions import *
+from math_functions import *
 
 def test_calculate_circumference():
     r = 3
