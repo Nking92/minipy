@@ -3,4 +3,4 @@ import re
 
 def match_url(url: str, regex=re.compile('(www|beta).example.com/')):
   """ Returns true if the url matches the regex """
-  return regex.match(url)
+  return regex.match(url) is not None
