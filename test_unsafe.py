@@ -20,7 +20,7 @@ def test_extract_from_zip():
   example_dir = os.path.join(tmp_dir, 'example')
   sub_dir = os.path.join(example_dir, '1')
   tar_filename = os.path.join(tmp_dir, 'tmp.tar.gz')
-  unzip_dir = sub_dir = os.path.join(os.getcwd(), 'tmp_unzip')
+  unzip_dir = os.path.join(tmp_dir, 'tmp_unzip')
   os.makedirs(sub_dir)
   make_tarfile(tar_filename, example_dir)
   extract_from_zip(tar_filename, unzip_dir)
